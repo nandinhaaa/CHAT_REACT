@@ -29,7 +29,7 @@ const Main = () => {
     <div className="main">
       <div className="nav">
         <p>Assistente Esportivo</p>
-        <img src={assets.sport_icon} alt="" />
+        <img src={assets.compass_icon} alt="" />
       </div>
       <div className="main-container">
         <div className="greet">
@@ -43,26 +43,26 @@ const Main = () => {
             <div className="cards">
               <div className="card" onClick={() => handleCardClick('Dicas de atividade')}>
                 <p>Dicas de atividade</p>
-                <img src={assets.dumbbell_icon} alt="" />
+                <img src={assets.bulb_icon} alt="" />
               </div>
               <div className="card" onClick={() => handleCardClick('Bem-Estar Mental')}>
                 <p>Bem-Estar Mental</p>
-                <img src={assets.trophy_icon} alt="" />
+                <img src={assets.message_icon} alt="" />
               </div>
               <div className="card" onClick={() => handleCardClick('Beneficios do Esporte')}>
                 <p>Beneficios do Esporte</p>
-                <img src={assets.map_icon} alt="" />
+                <img src={assets.code_icon} alt="" />
               </div>
               <div className="card" onClick={() => handleCardClick('Olá, Precisa de Dicas?')}>
                 <p>Olá, Precisa de Dicas</p>
-                <img src={assets.soccer_ball_icon} alt="" />
+                <img src={assets.code_icon} alt="" />
               </div>
             </div>
           </>
         ) : (
           <div className="result">
             <div className="result-title">
-              <img src={assets.result_icon} alt="" />
+              <img src={assets.gemini_icon} alt="" />
               <p>{recentPrompt}</p>
             </div>
             <div className="result-data">
