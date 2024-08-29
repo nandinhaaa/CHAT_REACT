@@ -3,6 +3,7 @@ const apiKey = import.meta.env.VITE_API_KEY;
 const getPythonData = async (query) => {
     try {
       const response = await axios.post("https://flaskappi-fbefhxgxfrf8hpen.eastus-01.azurewebsites.net/api", {
+
         consulta: query
       },
       {
