@@ -55,7 +55,7 @@ const Main = () => {
               </div>
               <div className="card" onClick={() => handleCardClick('Olá, Precisa de Dicas?')}>
                 <p>Olá, Precisa de Dicas</p>
-                <img src={assets.ligtht_icon} alt="" />
+                <img src={assets.plus_icon} alt="" />
               </div>
             </div>
           </>
